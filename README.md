@@ -1,2 +1,2 @@
-# DailyBreadBilling python django
+# python django app for DailyBreadBilling
 
