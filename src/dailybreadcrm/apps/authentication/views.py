@@ -25,7 +25,6 @@ class LoginView(TemplateView):
     template_name = 'authentication/login.html'
 
     def get(self, request, *args, **kwargs):
-        LOG.error(settings.STATIC_ROOT)
         return render(request, self.template_name)
 
 
